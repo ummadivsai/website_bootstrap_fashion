@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_body .header_part{
+    background: linear-gradient(#00000079,#00000092),url('https://cdn.pixabay.com/photo/2017/06/06/16/48/woman-2377742_640.jpg') no-repeat;
+    background-size: cover;
+}
+
+.main_body .header_part .heading_content .col-12 .h1{
+    font-size: 4.5rem;
+}
+
+.main_body .header_part .heading_content .col-12 .h1 span{
+    color: orangered;
+}
+
+.main_body .header_part .heading_content .col-12 .h6{
+    word-spacing: 0.1rem;
+}
+
+.main_body .header_part .heading_content .col-12 .btn{
+    background-color: orangered;
+    color: white;
+}
+
+.main_body .middle_part .navigation_part .navigation{
+    background-color: orangered;
+}
+
+.main_body .middle_part .navigation_part .navigation .col-8 .nav .nav-item .nav-link{
+    color: white;
+    font-weight: 500;
+}
+
+.main_body .middle_part .welcome_part .heading_icon_info .heading_icons .heading_borders_icons{
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.main_body .middle_part .welcome_part .heading_icon_info .heading_icons .heading_icon_and_info .heading_borders_icons .hhs{
+    height: 12rem;
+    width: 12rem;
+    color: orangered;
+}
+
+.main_body .middle_part .welcome_part .heading_icon_info .heading_icons .heading_icon_and_info .heading_borders_icons .hhhs{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    right: 7rem;
+    top: 4rem;
+    color: orangered;
+}
+
+.main_body .middle_part .welcome_part .heading_icon_info .heading_icons .heading_icon_and_info .heading_info_content h1{
+    font-size: 1rem;
+    font-weight: bolder;
+    font-stretch: extra-condensed;
+}
+
+.main_body .middle_part .our_works{
+    background-color: lightgray;
+}
+
+.main_body .middle_part .our_works .title_heading h1{
+    font-weight: bolder;
+}
+
+.main_body .middle_part .our_works .title_heading p{
+    text-align: center;
+    padding: 1rem 15rem;
+}
+
+.main_body .middle_part .our_works .our_works_btn ul li{
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.main_body .middle_part .our_works .our_works_btn ul li a{
+    color: gray;
+}
+
+.main_body .middle_part .our_works .our_works_images{
+height: 35rem;
+padding: 0rem 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 3rem 0rem;
+width: 60rem;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in{
+    display: flex;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i{
+    /* border: 2px solid red; */
+    flex-direction: column;
+    gap: 1rem;
+    height: 34rem;
+    align-items: center;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i .top_image_content{
+    padding-bottom: 2rem;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i .ic{
+    display: flex;
+    gap: 1rem;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i .ic .ic-i .lfc-1{
+    padding-bottom: 1rem;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i .ic .right_image_content img{
+    height: 21rem;
+    width: 40rem;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i .ic .left_image_content .lfc-1 img,.lfc-2 img{
+    height: 10rem;
+    width: 20rem;
+}
+
+.main_body .middle_part .our_works .our_works_images .ca-in .c-i .ic .right_image_content .bfc-1 img,.bfc-2 img,.bfc-3 img{
+    height: 10.5rem;
+    width: 18.6rem;
+}
+
+.main_body .middle_part .our_skills .skills_info{
+    padding: 0.5rem 13rem;
+}
+
+.main_body .middle_part .our_skills .skills_rating{
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.main_body .middle_part .our_skills .skills_rating .skills_rating_and_info ,.skill_rating_icon{
+    position: relative;
+}
+
+.main_body .middle_part .our_skills .skills_rating .skills_rating_and_info .skills_rating_icon .skill_rating_icon svg{
+    height: 10rem;
+    width: 10rem;
+    color: orangered;
+}
+
+.main_body .middle_part .our_skills .skills_rating .skills_rating_and_info .skills_rating_icon .skill_rate_percentage h1{
+    position: absolute;
+    top: 3.5rem;
+    left: 6rem;
+    color: gray;
+}
+
+.main_body .middle_part .our_skills .skills_rating .skills_rating_and_info .skills_rating_info .skills_rating_info_heading{
+    padding-top: 2rem;
+}
+
+.main_body .middle_part .our_skills .skills_rating .skills_rating_and_info .skills_rating_info .skills_rating_info_heading h1{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.main_body .middle_part .our_team{
+    background-color: orangered;
+}
+
+.main_body .middle_part .our_team .our_team_body{
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+.main_body .middle_part .our_team .our_team_body .heading_content .heading h1{
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.main_body .middle_part .our_team .our_team_body .heading_content .heading_para{
+    padding: 1rem 10rem;
+}
+
+.main_body .middle_part .our_team .our_team_body .our_team_members{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main_body .middle_part .our_team .our_team_body .our_team_members .row .col img{
+    height: 15rem;
+    width: 25rem;
+}
+
+.main_body .middle_part .blog_updates .blog_content{
+padding: 2rem 0rem;
+text-align: center;
+}
+
+.main_body .middle_part .blog_updates .blog_content .blog_heading{
+    padding-bottom: 1rem;
+}
+
+.main_body .middle_part .blog_updates .blog_content .blog_para{
+    padding: 0rem 8rem;
+}
+
+
+.main_body .middle_part .blog_updates .blog_post_content .row .col .blog_images img{
+    height: 20rem;
+    width: 25rem;
+}
+
+.main_body .middle_part .blog_updates .blog_post_content .row .col .blog_related_content{
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.main_body .middle_part .blog_updates .blog_post_content .row .col .blog_related_content h1{
+    font-size: 1.5rem;
+}
+
+.main_body .middle_part .get_in_touch{
+    background-color: orangered;
+    padding: 3rem 0rem;
+}
+
+.main_body .middle_part .get_in_touch .get_in_touch_content p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.main_body .middle_part .get_in_touch .get_in_touch_content .git-btn .btn{
+    background-color: white;
+    color: orangered;
+}
+
+.main_body .middle_part .get_in_touch .get_in_touch_content .s-btn{
+    border: 1px solid white;
+    color: white;
+    margin-top: 2rem;
+    border-radius: none;
+}
+
+.main_body .middle_part .testimonials{
+    background: linear-gradient(#00000082,#00000082),url('https://cdn.pixabay.com/photo/2019/12/02/08/04/city-4667143_640.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 2rem 7rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .heading{
+    padding-bottom: 2rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .heading h1{
+    font-size: 2rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .profile_image .bihe{
+    height: 8rem;
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .profile_name h1{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .profile_info{
+    /* border: 1px solid white; */
+    padding: 0rem 11rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .date_content{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* align-items: center; */
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .date_content .date h1{
+    font-size: 1.5rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .date_content .star .bi-star-fill{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .date_content .star .star-fill{
+color: orangered;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .scrolling_context{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate .profile .profile_content .scrolling_context svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.main_body .middle_part .testimonials .slide .slide-inner .rate0 .profile .profile_content .scrolling_context .hf1,.rate1 .profile .profile_content .scrolling_context .hf2,.rate2 .profile .profile_content .scrolling_context .hf3{
+    color: orangered;
+}
+
+.main_body .middle_part .contact_us{
+    padding: 3rem 0rem;
+    background-color: lightgray;
+}
+
+.main_body .middle_part .contact_us .form_validation .form_vaild  .row .cols{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main_body .middle_part .contact_us .form_validation .form_vaild{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 15rem;
+}
+
+.main_body .middle_part .contact_us .form_validation .form_vaild  .row .cols .col-1 input{
+    padding: 0.2rem;
+    width: 20rem;
+}
+
+.main_body .middle_part .contact_us .form_validation .form_vaild  .row .col textarea{
+    padding: 1rem 0.5rem;
+}
+
+.main_body .middle_part .contact_us .form_validation .form_vaild .form_btn .btn{
+    background-color: orangered;
+    color: white;
+    margin-top: 2rem;
+}
+
+.main_body .middle_part .contact_us .form_validation .form .form_vaild .row .col .col-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_body .middle_part .contact_us .form_validation .form .form_vaild .row .col-te{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_body .middle_part .contact_us .form_validation .form .form_vaild .row .col-te .descriptionError{
+    width: 20rem;
+    text-align: left;
+    color: red;
+}
+
+.main_body .middle_part .contact_us .form_validation .form .form_vaild .row .col .col-1 span{
+    color: red;
+    width: 20rem;
+    text-align: left;
+}
+
+.main_body .middle_part .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.main_body .middle_part .footer .footer_address .footer_icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.main_body .middle_part .footer .footer_address .footer_icons .fi-i{
+    position: relative;
+}
+
+.main_body .middle_part .footer .footer_address .footer_icons .fi-i .b-h-f{
+    height: 5rem;
+    width: 5rem;
+    color: lightgray;
+}
+
+.main_body .middle_part .footer .footer_address .footer_icons .fi-i .bis{
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.main_body .middle_part .footer .footer_address .foot_add p{
+    font-weight: bold;
+    color: gray;
+}
+
+.main_body .middle_part .copyright{
+    background-color: orangered;
+    padding: 3rem;
+    color: white;
+}
